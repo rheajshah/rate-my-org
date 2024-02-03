@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
+import './Homepage.css';
 
 function Homepage() {
     return (
-        <div>
-            <div class="row d-flex align-items-center justify-content-center text-center">
+    <div>
+        <head> 
+            <title>Your HTML Page</title>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&display=swap"></link>
+        </head> 
+        <body>
+            <div class= "centered-container">
                 <h1>Enter your university to begin</h1>
-
                 <input type="text" class="form-control" id="search-input" placeholder="Search..." />
                 <div class="input-group-append">
                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Options</button>
@@ -16,11 +21,10 @@ function Homepage() {
                     </div>
                     <button class="btn btn-primary" type="button">Search</button>
                 </div>
-
             </div>
+        </body>
+    </div>
+    );
+};
 
-        </div>
-    )
-}
-
-export default Homepage
+export default Homepage;
