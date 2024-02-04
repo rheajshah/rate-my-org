@@ -26,7 +26,7 @@ function Orgslist() {
                             <p class = "text-center">45 Ratings</p>
                         </div>
                         <div class="col-9">
-                            <h1><b>Women in Computer Science (WiCS)</b></h1>
+                            <h1><b><a href = "/wics-org" class = "remove-link">Women in Computer Science (WiCS)</a></b></h1>
                             <h4>Computer Science | $ | 2 hr/week</h4>
                             <p>Our mission is to encourage and support women in computing through: outreach, professional development, academic initiatives, and social events.</p>
                         </div>
@@ -38,7 +38,7 @@ function Orgslist() {
                             <p class = "text-center">76 Ratings</p>
                         </div>
                         <div class="col-9">
-                            <h1><b>Mojo Dojo Casa House</b></h1>
+                            <h1><b><a href = "/mojo-dojo-org" class = "remove-link">Mojo Dojo Casa House</a></b></h1>
                             <h4>Social | $$$$$ | 1 hr/week</h4>
                             <p>MEN RAHHHH</p>
                             <p>Motto: I am Kenough.</p>

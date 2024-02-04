@@ -50,6 +50,11 @@ main {
     text-align: center;
 }
 
+.remove-link {
+    color: inherit;
+    text-decoration: none;
+}
+
 .organization-info {
     flex-grow: 1;
 }
