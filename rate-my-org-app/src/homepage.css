@@ -1,19 +1,23 @@
-body {
-    font-family: 'Sofia', sans-serif;
-    background-color: #e0218a; 
-}
+@import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
 
 h1 {
     font-size: 3em;
     font-weight: bold;
+    color: white;
 }
 
 .centered-container {
+    background-color: #e0218a; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    font-family: 'Sofia', sans-serif;
+  }
+
+  .btn btn-outline-secondary dropdown-toggle{ 
+    background-color: grey;
   }
 
   #search-input {
