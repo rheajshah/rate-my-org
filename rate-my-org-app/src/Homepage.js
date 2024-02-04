@@ -1,26 +1,36 @@
 import React from 'react';
-import './Homepage.css';
-import './index.css';
-import {useState, useEffect, useRef} from 'react';
+import './homepage.css';
+import {useState} from 'react';
 
 function Homepage() {
 
     const [open, setOpen] = useState(false);
 
     return (
+            <div>
+                <header> 
+                <h2>Hi Barbie!</h2>
+                <h3> All Barbies deserve to find a safe space on campus, so let us help. </h3>
+                </header>
             <div class= "centered-container">
-                <h1>Enter your university to begin</h1>
-                <input type="text" class="form-control" id="search-input" placeholder="Search..." />
-                <div class="input-group-append">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown-menu" data-toggle="dropdown" 
-                    aria-haspopup="true" aria-expanded="false" onClick={()=>{setOpen(!open)}} >Filter</button>
-                    <div class={`dropdown-menu ${open? 'active' : 'inactive'}`}>
-                        <a class="dropdown-item" href="#">Option 1</a>
-                        <a class="dropdown-item" href="#">Option 2</a>
-                        <a class="dropdown-item" href="#">Option 3</a>
+                
+                <h1>Choose your university to begin</h1>
+                    <div className="btn-group">
+                        <button class="btn btn-secondary dropdown-toggle" 
+                                type="button"  
+                                data-toggle="dropdown" 
+                                aria-haspopup="true" 
+                                aria-expanded={open} 
+                                onClick={()=>{setOpen(!open)}} > Options </button>
+
+                        <div class={`dropdown-menu ${open ? 'show' : ''} `} onClick={()=>{setOpen(!open)}}>
+                            <a class="dropdown-item" href="#">University of Texas at Austin</a>
+                            <a class="dropdown-item" href="#">University of Texas San Antonio</a>
+                            <a class="dropdown-item" href="#">Texas Tech University</a>
+                            <a class="dropdown-item" href="#">Stanford University</a>
+                        </div>
                     </div>
-                    <button class="btn btn-primary" type="button">Search</button>
-                </div>
+            </div>
             </div>
     );
 };
