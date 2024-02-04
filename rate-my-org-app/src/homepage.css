@@ -8,6 +8,9 @@ h1 {
 
 .centered-container {
     background-color: #e0218a; 
+}
+
+.centered-container {
     display: flex;
     flex-direction: column;
     align-items: center;

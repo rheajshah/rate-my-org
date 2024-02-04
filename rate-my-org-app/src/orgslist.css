@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #ff00a2;
+    background-color: #f039b1;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -16,20 +16,43 @@ main {
     padding: 20px;
 }
 
+.nav-style{
+    padding: 0px 40px;
+    background-color: #f29ad8;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.filters {
+    padding: 0px 100px;
+}
+
 .organization-card {
-    background-color: #dd00ff;
+    background-color: #f29ad8;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 20px 130px 20px 100px;
     display: flex;
     align-items: center;
 }
 
-.rating {
-    font-size: 2em;
-    font-weight: bold;
-    margin-right: 30px;
+.rating-box {
+    background-color: #f039b1;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 80px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.remove-link {
+    color: inherit;
+    text-decoration: none;
 }
 
 .organization-info {
@@ -37,7 +60,7 @@ main {
 }
 
 .review-form {
-    background-color: #ff00bb;
+    background-color: #f039b1;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
