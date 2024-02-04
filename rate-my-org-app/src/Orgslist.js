@@ -56,19 +56,6 @@ function Orgslist() {
                             <p>Texas Mohini is UT's premier all-female Bollywood Fusion dance team. They perform multiple dance styles including Bollywood, Classical, Hip-hop, Contemporary, and Bhangra. Mohini competes within the Desi Dance Network (DDN), a Bollywood Dance Championship Circuit that allows collegiate dance teams to spread South Asian Culture through competitions and showcases. </p>
                         </div>
                 </div>
-                
-                <div class="review-form">
-                    <h2>Write a Review</h2>
-                    <form>
-                        <label for="review">Your Review:</label>
-                        <textarea id="review" name="review" rows="4" cols="50"></textarea><br />
-
-                        <label for="rating">Rating:</label>
-                        <input type="number" id="rating" name="rating" min="1" max="5" /><br />
-
-                        <input type="submit" value="Submit Review" />
-                    </form>
-                </div>
             </div>
             
         </div>
