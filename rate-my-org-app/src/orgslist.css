@@ -66,3 +66,9 @@ main {
     padding: 20px;
     margin-top: 20px;
 }
+
+.btn btn-outline-secondary dropdown-toggle{
+    outline: #fff;
+    background-color: transparent;
+    color : black;
+}

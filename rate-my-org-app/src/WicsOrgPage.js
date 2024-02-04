@@ -11,13 +11,9 @@ function WicsOrgPage() {
     return (
         <div>
             <div class = "info">
-                <h1>Women in Computer Science (WiCS)</h1>
+                <h2>Women in Computer Science (WiCS)</h2>
                 <div class="details">
-                    <h4>Socials</h4>
                     <h3>Our mission is to encourage and support women in computing through: outreach, professional development, academic initiatives, and social events.</h3>
-                    <p>Mental Health</p>
-                    <p>Term: Spring 2024</p>
-                    <p>Dues: <span id="dues">...</span></p>
                 </div>
             </div>
             
@@ -29,18 +25,24 @@ function WicsOrgPage() {
 
             <div class = "row">
                 <div class="ratings col-4">
-                    <h2>Ratings</h2>
-                    <p>Overall Rating: 4.5</p>
-                    <p>Difficulty: 3.2</p>
-                    <p>Clarity: 4.8</p>
+                <div class="row d-flex justify-content-center align-items-center organization-card">
+                    <h1>Ratings</h1>
+                    <p> <b>Overall Rating:</b> 4.5</p>
+                    <p> <b>Dues:</b> $$$ </p>
+                    <p> <b>time commitment: </b> %%% </p>
+                    <p> <b>DEI :</b> ***** </p>
+                    </div>
                 </div>
 
                 <div class = "col-8">
-                    <button onClick={handleClick}>
-                        Leave a Rating
-                    </button>
+                    <div class="row d-flex justify-content-center align-items-center organization-card">
+                        <button onClick={handleClick}>
+                            Leave a Rating
+                        </button>
+                    </div>
 
                     <div class="row d-flex justify-content-center align-items-center organization-card">
+                            
                             <div class="col-3">
                                 <h1 class = "rating-box"><b>5.0</b></h1>
                             </div>

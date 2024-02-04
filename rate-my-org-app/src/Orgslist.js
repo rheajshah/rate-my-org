@@ -18,6 +18,32 @@ function Orgslist() {
 
             <div class = "col-3 filters">
                 <h1>Filter</h1>
+                <div className="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" 
+                        type="button"  
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false" > Category 
+                        </button>
+                    <button class="btn btn-secondary dropdown-toggle" 
+                        type="button"  
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false" > Recruitment 
+                        </button>
+                    <button class="btn btn-secondary dropdown-toggle" 
+                        type="button"  
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false" > Major 
+                        </button>
+                    <button class="btn btn-secondary dropdown-toggle" 
+                        type="button"  
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false" > Dues 
+                        </button>
+                        </div>
             </div>
             <div class = "col-9">
                 <div class="row d-flex justify-content-center align-items-center organization-card">
