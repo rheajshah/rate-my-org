@@ -1,0 +1,79 @@
+body {
+    font-family: 'Sofia', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff00a2;
+}
+
+button { 
+    height : 50px; 
+    width : 150px; 
+    position: relative; 
+}
+
+header {
+    background-color: #ff00a2;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.organization-name {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.organization-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ratings-chart {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.organization-card {
+    background-color: #f29ad8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 130px 20px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.rating-box {
+    background-color: #f039b1;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 80px;
+}
+
+h2{ 
+    text-align : center;
+}
+
+
+h3 { 
+font-size : 16px; 
+font-style : italic; 
+text-align: center;
+}
