@@ -11,7 +11,7 @@ function WicsOrgPage() {
     return (
         <div>
             <div class = "info">
-                <h2>Mojo Dojo Casa House)</h2>
+                <h2>Mojo Dojo Casa House</h2>
                 <div class="details">
                     <h3>I am Kenough.</h3>
                 </div>
