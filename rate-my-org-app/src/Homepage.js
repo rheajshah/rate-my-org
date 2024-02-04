@@ -1,5 +1,5 @@
 import React from 'react';
-import './Homepage.css';
+import './homepage.css';
 import './index.css';
 import {useState, useEffect, useRef} from 'react';
 
